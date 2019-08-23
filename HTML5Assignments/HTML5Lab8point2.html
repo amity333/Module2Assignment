@@ -1,0 +1,71 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <title>New Form Elements</title>
+    </head>
+    <body style="background-color:skyblue">
+           <form action="//submit.form" id="Candidate Information" method="post">
+<table border="0" cellpadding="5" cellspacing="0">
+<tr> <td style="width: 50%">
+<label for="Name"><b>Name <span style="color:red">*</span></b></label><br />
+<input name="Name" type="name" maxlength="50" style="width: 260px" required />
+</td> <td style="width: 50%">
+<label for="password"><b>Password <span style="color:red">*</span></b></label><br />
+<input name="pwd" type="password" maxlength="10" style="width: 260px" required />
+</td> <td style="width: 50%">
+</td> </tr> <tr> <td colspan="2">
+<label for="PhoneNumber"><b>Phone Number <span style="color:red">*</span></b></label><br />
+<input name="PhoneNumber" type="text" pattern="[6-9]{1}[0-9]{9}" maxlength="10" style="width: 535px" required  />
+</td> </tr> <tr> <td colspan="2">
+<label for="gender"><b>Gender <span style="color:red">*</span></b></label><br />
+<input type="radio" name="gender" value="Male" checked>Male 
+  <input type="radio" name="gender" value="Female" required >Female<br><br>
+</td> </tr> <tr> <td colspan="2">
+<label for="DateOfBirth "><b>Date of Birth <span style="color:red">*</span></b></label><br />
+  <input type="date" name="DOJ" required ><br><br>
+  </td> </tr> <tr> <td colspan="2">
+  
+<label for="Email_Address"><b>Email <span style="color:red">*</span></b></label><br />
+<input name="Email_Address" type="text" maxlength="100" style="width: 535px" required  />
+</td> </tr> <tr> <td colspan="2">
+
+<label for="Highest Qualification"><b>Highest Qualification <span style="color:red">*</span></b></label><br />
+<select name="pref">
+<option value="B.Tech" required >B.Tech</option>
+<option value="M.Tech" required >M.Tech</option>
+<option value="PhD" required >PhD</option>
+</select required >
+</td> </tr> <tr> <td colspan="2">
+<label for="Courses Interested in "><b>Courses Interested in <span style="color:red">*</span></b></label ><br />
+<input type="checkbox" required name="html">HTML5 
+<input type="checkbox" required  name="java">JAVA
+<input type="checkbox" required name="CSS3">CSS3
+<input type="checkbox" required name="JQuery">JQuery
+<input type="checkbox" required name="AngularJS">AngularJS<br><br>
+</td> </tr> <tr> <td colspan="2">
+
+<label for="Comments"><b>Comments(Mention External Certifications if any</b></label><br />
+<input name="comments" type="text" maxlength="500" style="width: 400px; height: 200" />
+</td> <td style="width: 50%">
+</td> </tr> <tr> <td colspan="2">
+
+<label for="upload"><b>Upload Degree/External Certificates</b></label><br />
+<input type="file" name="myFile">
+</td> </tr> <tr> <td colspan="2">
+
+<p align="center"><span style="color:red">* All fields are mandatory</span></p><br />
+</td> </tr> <tr> <td colspan="2">
+
+<input type="submit" value="Submit">
+
+<input type="reset" value="Clear">
+
+
+</table>
+</form>
+    </body>
+</html>
+
+
+
+

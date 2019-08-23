@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Methods</title>
+</head>
+<body style="background-color:skyblue">
+
+<h3>Employee Details</h3>
+<form action="mailto:empinfo@capgemini.com" name="name" method="post"
+enctype="multipart/form-data">
+<p>
+Name 
+<input type="text" name="txtName" size="20" value="abc"> <br> <br> 
+Employee Code
+<input type="text" name="code" size="4" readonly value="Code" tabindex="2" maxlength="4"> <br> <br> 
+Department<br>
+<input type="radio" name="dept" value="Admin" checked>Admin<br><br> 
+  <input type="radio" name="dept" value="HR">HR<br><br> 
+  <input type="radio" name="dept" value="Technical">Technical <br> <br> 
+  <input type="radio" name="dept" value="Accounts">Accounts <br> <br> 
+Date of Joining:
+<input type="date" name="DOJ"><br><br>
+Address :
+<textarea name="addr" Rows="5" cols="40" tabindex="0" accesskey="A">Enter ur address </textarea>
+<br> <br>
+ training programs attended : <br>
+<input type="checkbox" name="html/dhtml">HTML/DHTML <br> <br> 
+<input type="checkbox" name="java">JAVA<br> <br>
+<input type="checkbox" name="Client/Server">Client/Server<br> <br>
+<input type="checkbox" name=".NET">.NET<br> <br>
+
+Training program need to attend  
+<select name="pref">
+<option value="JS">JavaScript </option>
+<option value="CSS3">CSS3 </option>
+<option value="XML">XML </option>
+</select>
+</p>
+</form>
+</body>
+ </html>
